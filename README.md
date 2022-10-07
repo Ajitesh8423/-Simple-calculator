@@ -6,7 +6,7 @@ int main() {
   char c;
   float num1, num2;
 
-  cout << "Enter operator: +, -, *, /: ";
+  cout << "Enter operator: (+, -, *, / ) =  ";
   cin >> c;
 
   cout << "Enter numbers: \n";
@@ -37,7 +37,7 @@ int main() {
 
     default:
      
-      cout << "Error! operator is not correct";
+      cout << "Error! operator is not available";
       break;
   }
 
